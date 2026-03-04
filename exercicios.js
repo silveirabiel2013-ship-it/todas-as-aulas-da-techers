@@ -85,10 +85,9 @@ for(let ta = 1; ta<=10; ta++){
 // Simule um download. Crie uma variável `progresso = 0`. Enquanto o progresso 
 // for menor que 100, adicione 20 e exiba "Baixando... [progresso]%".
 
-let progresso = 0
+let SEI = 0
 
-while(progresso < 100){
-    progresso = progresso + 20
-    // progresso +=20
-    console.log("Baixando... "+progresso+"%")
+while(SEI < 100){
+    SEI = SEI + 20
+    console.log("Baixando... "+SEI+"%")
 }
